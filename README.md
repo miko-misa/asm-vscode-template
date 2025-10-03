@@ -1,4 +1,4 @@
-# VSCode Assembly Template
+# asm-vscode-template
 
 このリポジトリは、GNU Assembler (GAS) を使った x86-64 アセンブリ開発を VS Code で始めるためのテンプレートです。VS Code のタスク機能と GDB を組み合わせて、1 つのショートカットからビルドとデバッグを行えます。
 
