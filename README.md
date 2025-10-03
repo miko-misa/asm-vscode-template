@@ -2,6 +2,19 @@
 
 このリポジトリは、GNU Assembler (GAS) を使った x86-64 アセンブリ開発を VS Code で始めるためのテンプレートです。VS Code のタスク機能と GDB を組み合わせて、1 つのショートカットからビルドとデバッグを行えます。
 
+## 前提条件
+- **Visual Studio Code (VS Code)** がインストールされていること。  
+  [公式サイト](https://code.visualstudio.com/) からダウンロードできます。
+- **GCC (GNU Compiler Collection)** と **GDB (GNU Debugger)** がインストールされていること。  
+  - macOS では [Homebrew](https://brew.sh/) を使って `brew install gcc gdb` でインストールできます。  
+  - Ubuntu や WSL (Windows Subsystem for Linux) では `sudo apt install build-essential gdb` でインストールできます。
+- **Git** (任意)。リポジトリをクローンする場合に必要です。  
+  [公式サイト](https://git-scm.com/) からダウンロードできます。
+
+示したコマンドなどは一例です。OS や環境によって異なる場合があります。
+詳しくは、Google検索などで各ツールのインストール方法を調べてください。ChatGPTとかGeminiに聞くと結構教えてくれます。
+プログラミングで一番難しいのは環境構築と言われているので、頑張ってください。
+
 ## セットアップ手順
 
 1. **リポジトリを入手する**  
